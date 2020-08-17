@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Герой" />
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Экипировка" />
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Инвентарь" />
+        <item
+            android:id="@+id/nav_menu4"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Кубы и заметки"/>
+    </group>
+</menu>
